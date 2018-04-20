@@ -1,8 +1,5 @@
 # *-* coding: utf-8 *-*
 
-import os
-import scipy.misc
-
 # CIFAR Images Extractor
 # Python code for extracting CIFAR dataset images.
 
@@ -11,6 +8,9 @@ import scipy.misc
 
 # Repository:
 # https://github.com/amir-saniyan/CIFARImagesExtractor
+
+import os
+import scipy.misc
 
 
 def unpickle(file):
